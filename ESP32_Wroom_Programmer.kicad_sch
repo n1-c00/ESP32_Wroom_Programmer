@@ -950,133 +950,6 @@
 				)
 			)
 		)
-		(symbol "Custom:Torex_Semicon_XC6206P332MR-G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Torex Semicon XC6206P332MR-G"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Custom:SOT_23"
-				(at 0 10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707861620228096"
-				(at -1.27 15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200mA Fixed 3.3V Positive electrode 6Vin SOT-23-3L Voltage Regulators"
-				(at -1.27 12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Torex_Semicon_XC6206P332MR-G_1_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_out line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1875,6 +1748,133 @@
 				)
 			)
 		)
+		(symbol "Torex_Semicon_XC6206P332MR-G_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Torex Semicon XC6206P332MR-G"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom:SOT_23"
+				(at 0 10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707861620228096"
+				(at -1.27 15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA Fixed 3.3V Positive electrode 6Vin SOT-23-3L Voltage Regulators"
+				(at -1.27 12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LDO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Torex_Semicon_XC6206P332MR-G_1_1_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:SS8050"
 			(pin_names
 				(offset 0) hide)
@@ -2430,7 +2430,7 @@
 		(at 55.88 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "764c27f5-2790-490c-aa0f-b8c488437ce2")
+		(uuid "a5d00b79-73a6-44c6-901e-54421c29aade")
 	)
 	(junction
 		(at 208.28 76.2)
@@ -2576,6 +2576,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 59.69) (xy 85.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3579fa-efed-4bae-bb06-b0961ae53af9")
+	)
+	(wire
+		(pts
 			(xy 55.88 119.38) (xy 50.8 119.38)
 		)
 		(stroke
@@ -2613,16 +2623,6 @@
 			(type default)
 		)
 		(uuid "1e07abdf-3c2b-4f23-9b0c-50fd8f97db61")
-	)
-	(wire
-		(pts
-			(xy 55.88 59.69) (xy 85.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eca7cb4-f0c0-4d1a-9034-d63ac82d1721")
 	)
 	(wire
 		(pts
@@ -3400,17 +3400,6 @@
 		)
 		(uuid "487d33e4-9ac7-42c7-b936-bb2818303982")
 	)
-	(label "Prog_Rx"
-		(at 215.9 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c96c75f-4823-485c-9974-cbd50a1e8bd8")
-	)
 	(label "Conv_Rx"
 		(at 138.43 130.81 180)
 		(fields_autoplaced yes)
@@ -3434,17 +3423,6 @@
 		(uuid "6e8a1a93-9d28-4ec6-9c1d-ed23d1c5a8f0")
 	)
 	(label "Prog_Tx"
-		(at 215.9 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a67eb8f-9e8b-4655-ac59-a05874ba782b")
-	)
-	(label "Prog_Tx"
 		(at 158.75 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3465,6 +3443,28 @@
 			(justify left bottom)
 		)
 		(uuid "80e10971-c219-4198-8ca5-01911754a124")
+	)
+	(label "Prog_Tx"
+		(at 215.9 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f9fa3e2-f348-44a0-aa2f-be32c9d04308")
+	)
+	(label "Prog_Rx"
+		(at 215.9 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e2e93d-cd59-4ab3-823a-2068e6941eff")
 	)
 	(label "Conv_RTS"
 		(at 198.12 76.2 0)
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "e0114110-0356-4e33-9a3d-0f9b32372baa")
 	)
-	(label "Prog_Tx"
+	(label "Conv_Tx"
 		(at 198.12 147.32 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3591,7 +3591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 39.37 134.62 0)
 			(effects
 				(font
@@ -3688,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0355a524-6744-4107-b8cf-5acaa8275380")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 119.38 161.29 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3754,7 +3754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aa5315a-3506-4a43-b651-57f4e68dfdca")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 222.25 134.62 0)
 			(effects
 				(font
@@ -3804,7 +3804,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3820,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2ce851-dde8-429e-91f1-47904ba7cf18")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 77.47 125.73 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3887,7 +3887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b66384-af1f-4780-b72e-a152341254ab")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 121.5741 152.4 0)
 			(effects
 				(font
@@ -3984,7 +3984,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229b48db-8b37-4aa9-87f7-e0b6ca7b29f4")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 128.27 64.7699 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.4252 69.85 0)
 			(effects
 				(font
@@ -4054,7 +4054,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ac6bd0-6836-412e-9a6f-c8b129402ff7")
-		(property "Reference" "PROG"
+		(property "Reference" "J2"
 			(at 232.41 118.1099 0)
 			(effects
 				(font
@@ -4088,7 +4088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 229.87 118.11 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "PROG")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dadcba9-87fe-4440-b9c4-c1d58cbe840a")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 88.9 64.7699 0)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 69.85 0)
 			(effects
 				(font
@@ -4198,15 +4198,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ae72d09-cb12-4694-b568-28b9782c9512")
+			(uuid "1ae72d09-cb12-4694-b568-28b9782c9513")
 		)
 		(pin "2"
-			(uuid "d060cab1-1f90-451c-9de4-85998fee3bb9")
+			(uuid "d060cab1-1f90-451c-9de4-85998fee3bba")
 		)
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb307c5-6ad6-4378-804c-d2fb24e2c3d7")
-		(property "Reference" "PWR"
+		(property "Reference" "D1"
 			(at 153.67 66.3574 90)
 			(effects
 				(font
@@ -4240,7 +4240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 149.86 66.04 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "PWR")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578671cb-4ec6-4ada-aa60-6384e905b9c4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 77.978 90)
 			(effects
 				(font
@@ -4424,7 +4424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b08c9d-2363-4ee1-8986-5f085b176cbc")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 62.738 126.238 90)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 130.048 90)
 			(effects
 				(font
@@ -4476,7 +4476,82 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "R2")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Torex_Semicon_XC6206P332MR-G_1")
+		(lib_id "Custom:Torex_Semicon_XC6206P332MR-G")
+		(at 101.6 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65cfb825-8eb1-4e17-b501-07db07a7897c")
+		(property "Reference" "U1"
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Torex Semicon XC6206P332MR-G"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 101.6 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707861620228096"
+			(at 100.33 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA Fixed 3.3V Positive electrode 6Vin SOT-23-3L Voltage Regulators"
+			(at 100.33 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "604f9a43-b702-48f6-85e6-d83659f70ed5")
+		)
+		(pin "3"
+			(uuid "7aedc561-f810-4122-adf5-19f01d391860")
+		)
+		(pin "1"
+			(uuid "d583f4e1-c319-4f03-bd33-36da2d9b5ba3")
+		)
+		(instances
+			(project ""
+				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "726b0bed-1bfb-448f-aa71-24a012460e1b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -4542,7 +4617,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4633,7 +4708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75b5946b-a495-491c-86ad-a7956753a9a0")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 125.984 107.95 0)
 			(effects
 				(font
@@ -4651,7 +4726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.4252 114.3 0)
 			(effects
 				(font
@@ -4687,7 +4762,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d453bb8-6781-494d-99ce-b84b78486196")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 214.63 48.26 90)
 			(effects
 				(font
@@ -4718,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 52.578 90)
 			(effects
 				(font
@@ -4754,7 +4829,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e71a144-79eb-4758-8543-fe837f68dfe8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -4820,7 +4895,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81148efb-5ad3-4814-badf-022b7a60df36")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 137.16 53.34 90)
 			(effects
 				(font
@@ -4852,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 61.468 90)
 			(effects
 				(font
@@ -4888,7 +4963,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e944c5e-7223-48ff-8392-62368d33d273")
-		(property "Reference" "ACT"
+		(property "Reference" "D2"
 			(at 226.3775 139.7 0)
 			(effects
 				(font
@@ -4920,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 224.79 147.32 0)
 			(effects
 				(font
@@ -4956,7 +5031,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "ACT")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4972,7 +5047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca2190c-bce5-4a37-8f4b-227a1b041cda")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 55.88 63.5 0)
 			(effects
 				(font
@@ -5022,7 +5097,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4ec3bd-745c-4d3e-af65-52b5fea72d02")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -5088,7 +5163,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e907d0e-6fa8-4483-ac90-23af7cb5a7e4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 124.46 123.19 0)
 			(effects
 				(font
@@ -5154,7 +5229,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c011d886-e64b-4657-a799-5b9d20224974")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 233.68 156.21 0)
 			(effects
 				(font
@@ -5296,7 +5371,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c12574e5-94c2-4b74-9af4-3f5c45f2f9a4")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 62.738 121.158 90)
 			(effects
 				(font
@@ -5327,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 124.968 90)
 			(effects
 				(font
@@ -5363,82 +5438,7 @@
 		(instances
 			(project ""
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Custom:Torex_Semicon_XC6206P332MR-G")
-		(lib_id "Custom:Torex_Semicon_XC6206P332MR-G")
-		(at 101.6 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c15ee307-172f-4086-9172-9e904174dd2c")
-		(property "Reference" "U3"
-			(at 101.6 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Torex Semicon XC6206P332MR-G"
-			(at 101.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:SOT_23"
-			(at 101.6 50.8 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707861620228096"
-			(at 100.33 45.72 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA Fixed 3.3V Positive electrode 6Vin SOT-23-3L Voltage Regulators"
-			(at 100.33 48.26 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee875ae9-5e22-462a-b4b1-00bcfec772b0")
-		)
-		(pin "3"
-			(uuid "a76dccc1-ca94-41cc-b760-900fd36bb037")
-		)
-		(pin "3"
-			(uuid "1c3f6a7d-bb05-49ed-9293-dbcc7e4950f6")
-		)
-		(instances
-			(project ""
-				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "U3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71c42c9-4dce-4a05-9a79-c4772d0396fb")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 141.478 128.778 90)
 			(effects
 				(font
@@ -5469,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.51 132.588 90)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 143.51 127.508 90)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eacfec8f-7740-4ef9-934b-c97892012486")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR02"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9c2a51-07ab-4c0b-a860-d73c3ca2a58b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 85.09 78.74 0)
 			(effects
 				(font
@@ -5769,7 +5769,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5eb911c-e83f-4492-8a8e-21dc8d824461")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -5834,7 +5834,7 @@
 		(instances
 			(project "ESP32_Wroom_Programmer"
 				(path "/d9490e24-cb38-4c2a-9d7c-dbeec8324b9a"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.55 149.098 90)
 			(effects
 				(font
